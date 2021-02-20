@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(){
-	char a[10]="selam";  /* a karakter dizisinin icinndeki '10' rakamı bu dizinin alabilecegi en fazla harf karakterini belirtmektedir.*/
+	char a[10]="hello";  /* a karakter dizisinin icindeki '10' rakamı bu dizinin buyuklugunu ve en fazla harf karakterini belirtmektedir.*/
 	int i=0;
 	int n;
 	scanf("%d",&n);     /* Kullanicidan tam sayi cinsinden deger aliyoruz 'n' degiskeni icin.*/
