@@ -2,17 +2,11 @@
 
 int main(){
 	
-	//while döngüsü ile 0dan 100e kadar olan sayýlarý çifter çifter ardýndan üçer üçer arttýrýnýz
-	
-	int i=0;
-	while(i<=100)
+	int i=1; /*int turunde 'i' degeri.*/
+	while(i<=100)	/*'i' degeri 100'e esit olana kadar doner*/
 	{
-		if(i%3==0)
-		{
-			printf("%d\n",i);
-		}
-		//printf("%d\n",i);
-		i++;
+		printf("%d",i); /*'i' degerini ekrana yazar*/
+		i++;	/*her dongude i degerini 1 arttÄ±rÄ±r.*/
 	}
 	
   return 0;
