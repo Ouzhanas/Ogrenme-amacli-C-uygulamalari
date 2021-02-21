@@ -7,7 +7,7 @@ int main(){
 	int n;
 	scanf("%d",&n);     /* Kullanicidan tam sayi cinsinden deger aliyoruz 'n' degiskeni icin.*/
 
-	do{
+	do{		/*do ilk kullanildiginda kosul gozetmeksizin yerine getirir ancak sonraki seferlerde while tarafında saglanan degerler icin islemi saglar.*/
 		printf("%s\n",a);   /*do yapilacak isi while ise dogrulugu kontrol amaclidir. bu alanda program 'i' degeri 'n' degerinden kucuk oldugu surece calisacaktir*/
 		i++;
 	}while(i<n);
