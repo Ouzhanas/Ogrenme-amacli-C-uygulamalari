@@ -9,7 +9,7 @@ int main(){
 	
 while(i < 6){
 	scanf("%d",&n);
-	if(n < 0)
+	if(n <= 0)
 		continue; /*continue if kosulu yanlis olursa 'i' degerini 1 arttirir ancak program calismaya devam eder sonlanmaz.*/
 	sum += n;
 	i++;
