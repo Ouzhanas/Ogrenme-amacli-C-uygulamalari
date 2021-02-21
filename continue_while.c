@@ -5,8 +5,7 @@ int main(){
 	int n;
 	int sum=0;
 	
-	printf("Bir rakam gir :");
-	//scanf("%d",&n);
+	printf("6 tane pozitif sayi gir :");
 	
 while(i < 6){
 	scanf("%d",&n);
